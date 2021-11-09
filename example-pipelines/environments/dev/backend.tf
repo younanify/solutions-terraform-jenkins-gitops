@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "forward-timer-331602-tfstate"
     prefix = "env/dev"
   }
 }
